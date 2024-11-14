@@ -1,0 +1,79 @@
+.testimonials {
+    padding: 80px 20px;
+    background-color: #f9f9fc; /* Soft background color */
+    text-align: center;
+
+    h2 {
+        font-size: 36px;
+        color: #6b21a8; /* Slightly deeper purple */
+        margin-bottom: 40px;
+        font-weight: 700;
+    }
+
+    .testimonials-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+        gap: 30px;
+        margin-left: -1rem;
+        padding: 0 20px;
+        @media (min-width:1068px) {
+            margin-left: -2rem;
+        }
+    }
+   
+
+
+    .testimonial-card {
+        background-color: #ffffff;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+        padding: 30px;
+        border-radius: 15px;
+        width: 100%;
+        max-width: 350px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+       
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+        }
+        
+        .student-image {
+            img {
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 15px;
+                border: 4px solid #8b5cf6; /* Add border for image focus */
+            }
+        }
+
+        .message {
+            font-size: 17px;
+            color: #4b5563; /* Softer color for readability */
+            line-height: 1.6;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .info {
+            text-align: center;
+        }
+
+        .name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #6b21a8; /* Matched color scheme */
+            margin-bottom: 5px;
+        }
+
+        .position {
+            font-size: 15px;
+            color: #6b7280; /* Soft gray for contrast */
+        }
+    }
+}
