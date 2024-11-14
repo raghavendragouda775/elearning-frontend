@@ -7,7 +7,7 @@ import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import Verify from './pages/auth/Verify';
 import Footer from './components/Footer/Footer';
-import About from './pages/about/about';
+import About from './pages/about/About';
 import Account from './pages/account/Account';
 import { UserData } from './context/UserContext';
 import Loading from './components/loading/Loading';
