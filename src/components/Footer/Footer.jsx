@@ -15,13 +15,13 @@ const Footer = () => {
           By ❤️ <a href="">Raghu</a>
         </p>
         <div className="social-links">
-          <a href="">
+          <a href="https://facebook.com">
             <AiFillFacebook />
           </a>
-          <a href="">
+          <a href="https://twitter.com">
             <AiFillTwitterSquare />
           </a>
-          <a href="">
+          <a href="https://instagram.com">
             <AiFillInstagram />
           </a>
         </div>
